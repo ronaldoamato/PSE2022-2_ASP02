@@ -63,9 +63,9 @@ begin
 	begin	
 		if (reqleit = '1') then
 			address_reg <= address;
-			data_out <= ram(address_reg);
+			--data_out <= ram(address_reg);
 		end if;
 	end process;
-	--data_out <= ram(address_reg);
+	data_out <= ram(address_reg);
 
 end rtl;
