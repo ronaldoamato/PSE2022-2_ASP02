@@ -1,0 +1,28 @@
+C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PO_memory.vhd {1 {vcom -work work -2002 -explicit C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PO_memory.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture rtl of memory
+
+} {} {}} C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PC_memory.vhd {1 {vcom -work work -2002 -explicit C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PC_memory.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture logica of memory
+
+} {} {}} C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PO_memory_top.vhd {1 {vcom -work work -2002 -explicit C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PO_memory_top.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory_top
+-- Compiling architecture rtl of memory_top
+
+} {} {}}
