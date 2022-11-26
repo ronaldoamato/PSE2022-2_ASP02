@@ -45,12 +45,12 @@ begin
 					ack_mem <= '0';
 					ack_io <= '0';
 					address <= 0;
-					reqleit <= '1';
+					reqleit <= '0';
 					reg_state <= e1;
 				when e1 =>
 					address <= 2;
 					ack_mem <= '1';
-					reqleit <= '0';
+					reqleit <= '1';
 					reg_state <= e2;
 				when e2 =>
 					ack_mem <= '0';
