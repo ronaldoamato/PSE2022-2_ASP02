@@ -4,7 +4,7 @@ K3
 cModel Technology
 dC:\Designs\Modelsim\Sqrt_corrigido
 Ememory
-Z0 w1669491400
+Z0 w1669500785
 Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
@@ -13,33 +13,33 @@ Z5 8C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PO_memory.vhd
 Z6 FC:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PO_memory.vhd
 l0
 L5
-V_gN=oV2E3XRR?IS73LhcI3
+VI[k9c<Lk[X3S9m]FG>@e@3
+!s100 T@HJR_6D]jL=?U>9RQ<Kz2
 Z7 OV;C;10.1d;51
 32
-Z8 !s108 1669492097.624000
+!i10b 1
+Z8 !s108 1669502251.525000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PO_memory.vhd|
 Z10 !s107 C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PO_memory.vhd|
 Z11 o-work work -2002 -explicit -O0
 Z12 tExplicit 1
-!s100 zW3:AZWgJkE7occMH9?cI2
-!i10b 1
 Artl
 R1
 R2
 R3
-DEx4 work 6 memory 0 22 _gN=oV2E3XRR?IS73LhcI3
-l52
-L24
-V=]3?5S>fAW62V=m3OA@;V1
+Z13 DEx4 work 6 memory 0 22 I[k9c<Lk[X3S9m]FG>@e@3
+l45
+L25
+Z14 VDS8d=JzUnCCmkW]iNCL>^3
+Z15 !s100 01zO1Y9F0P0IQdC151C>>3
 R7
 32
+!i10b 1
 R8
 R9
 R10
 R11
 R12
-!s100 m=C?Qg;D[g6MZS5d8jLl42
-!i10b 1
 Alogica
 R1
 R2
@@ -52,57 +52,57 @@ R7
 32
 R11
 R12
-Z13 FC:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PC_memory.vhd
+Z16 FC:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PC_memory.vhd
 w1669486492
-Z14 8C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PC_memory.vhd
-Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PC_memory.vhd|
-Z16 !s107 C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PC_memory.vhd|
+Z17 8C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PC_memory.vhd
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PC_memory.vhd|
+Z19 !s107 C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PC_memory.vhd|
 !s100 [dN`a30QSVOHV@8YgM_5=0
 !s108 1669488062.520000
 !i10b 1
 Ememory_tb
-Z17 w1669491780
-Z18 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
-Z19 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
-Z20 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z20 w1669502200
+Z21 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+Z22 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+Z23 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
 R2
 R3
 R4
-Z21 8C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/memory_tb.vhd
-Z22 FC:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/memory_tb.vhd
+Z24 8C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/memory_tb.vhd
+Z25 FC:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/memory_tb.vhd
 l0
 L8
 V6`K5b:F<87[iCNX6D;9`n3
-!s100 RJi1Fg9fE_61VnhC6QE6V0
 R7
 32
-!i10b 1
-Z23 !s108 1669492097.750000
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/memory_tb.vhd|
-Z25 !s107 C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/memory_tb.vhd|
+Z26 !s108 1669502251.373000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/memory_tb.vhd|
+Z28 !s107 C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/memory_tb.vhd|
 R11
 R12
+!s100 RJi1Fg9fE_61VnhC6QE6V0
+!i10b 1
 Abehavior
-R18
-R19
-R20
+R21
+R22
+R23
 R2
 R3
-Z26 DEx4 work 9 memory_tb 0 22 6`K5b:F<87[iCNX6D;9`n3
-l30
+DEx4 work 9 memory_tb 0 22 6`K5b:F<87[iCNX6D;9`n3
+l46
 L11
-Z27 VKWg;PNV9kGKo_08_eXgaf1
-Z28 !s100 Pd2aV0^oV>:NKoVl=zIjk3
+VK9NL8okdePXEW]Ii3eKMH2
 R7
 32
-!i10b 1
-R23
-R24
-R25
+R26
+R27
+R28
 R11
 R12
+!s100 ;l=VChkl7]=9NoBB_B6Cz0
+!i10b 1
 Ememory_top
-Z29 w1669486506
+Z29 w1669497583
 R1
 R2
 R3
@@ -114,7 +114,7 @@ L5
 V9aQUe]OhVmTI`TbCme::`2
 R7
 32
-Z32 !s108 1669492097.686000
+Z32 !s108 1669498690.402000
 Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PO_memory_top.vhd|
 Z34 !s107 C:/ProjetoSistemasEmbarcados/PSE2022-2_ASP02/PO_memory_top.vhd|
 R11
@@ -126,10 +126,9 @@ R1
 R2
 R3
 DEx4 work 10 memory_top 0 22 9aQUe]OhVmTI`TbCme::`2
-l69
+l77
 L25
-V:1Rn_BV=8M6XEi7n<KLJG2
-!s100 N:I<W0zlkaW3;PldF;MO01
+VIZFB_Q?Nm`8PQG9hEi]a`0
 R7
 32
 R32
@@ -137,22 +136,58 @@ R33
 R34
 R11
 R12
+!s100 mcYcFOlE34=>YnDibg38c1
 !i10b 1
-Epc_sqrt
-Z35 w1669492087
+Epc_memory
+Z35 w1669501869
 R2
 R3
 R4
-R14
-R13
+R17
+R16
+l0
+L11
+VLf6:FDcb_>RcPTJZdGA`R3
+R7
+32
+Z36 !s108 1669502251.461000
+R18
+R19
+R11
+R12
+!s100 YU923PSCJZF7:6a]OD69=2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 9 pc_memory 0 22 Lf6:FDcb_>RcPTJZdGA`R3
+l31
+L25
+VjF0A290^Ia8:ok04`Ce8R0
+!s100 _c;9oU^JlC4[<iW5gEZhl2
+R7
+32
+R36
+R18
+R19
+R11
+R12
+!i10b 1
+Epc_sqrt
+Z37 w1669496474
+R2
+R3
+R4
+R17
+R16
 l0
 L11
 VN^_ij5jg9lRE;=9NB`h;g3
 R7
 32
-Z36 !s108 1669492097.559000
-R15
-R16
+Z38 !s108 1669498437.220000
+R18
+R19
 R11
 R12
 !s100 5Wfno;h=:oAnL:dBF>=L62
@@ -163,13 +198,13 @@ R3
 DEx4 work 7 pc_sqrt 0 22 N^_ij5jg9lRE;=9NB`h;g3
 l31
 L25
-V_9d6VQA[0Y7=UM<mh98O]2
+Vaf@zMmecVlJCeo?Y1PCh]2
 R7
 32
-R36
-R15
-R16
+R38
+R18
+R19
 R11
 R12
-!s100 CkkXI>lD`]D^iU4N<4Xk51
+!s100 L??D`=a>JA:e;RX_Ia:@d1
 !i10b 1

@@ -8,12 +8,12 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity PC_Sqrt is
+entity PC_Memory is
 
 	port(
 		clk	     : in std_logic;
 		reset	 : in std_logic;
-		address	 : out natural range 0 to 15;
+		--address	 : in natural range 0 to 15;
 		reqleit	 : in std_logic;
 		ack_in	 : in std_logic;
 		ack_mem	 : out std_logic;
@@ -22,7 +22,7 @@ entity PC_Sqrt is
 
 end entity;
 
-architecture rtl of PC_Sqrt is
+architecture rtl of PC_Memory is
 
 	type state_type is (s0, s1, s2, s3);
 
@@ -30,11 +30,11 @@ architecture rtl of PC_Sqrt is
 
 begin
 	
-	process (clk, reset)
+	process (clk, reset, reqleit, ack_in)
 	begin
 		if reset = '1' then
 			state <= s0;
-		elsif (rising_edge(reqleit)) then
+		else
 			if reqleit = '1' then
 				case state is
 					when s0=>
@@ -44,7 +44,6 @@ begin
 							state <= s1;
 						else
 							state <= s2;
-							ack_mem <= ack_in;
 						end if;
 					when s2=>
 						if ack_in = '1' then
@@ -64,16 +63,16 @@ begin
 		case state is
 			when s0 =>
 				dadoPrt <= '0';
-				ack_mem <= '0';
+				ack_mem <= ack_in;
 			when s1 =>
 				dadoPrt <= '0';
-				ack_mem <= '1'; 
+				ack_mem <= ack_in; 
 			when s2 =>
 				dadoPrt <= '1';
-				ack_mem <= '0';
+				ack_mem <= ack_in;
 			when s3 =>
 				dadoPrt <= '0';
-				ack_mem <= '0';
+				ack_mem <= ack_in;
 		end case;
 	end process;
 
