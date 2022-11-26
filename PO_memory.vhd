@@ -14,7 +14,9 @@ entity memory is
 		reqleit		: in std_logic;
 		address		: in natural range 0 to (ADDR_WIDTH-1);					-- 16 posicoes de memoria
 		dadoPrt		: out std_logic;										-- flag para permitir ou não a saida de dados da memória
-		data_out	: out std_logic_vector((DATA_WIDTH -1) downto 0)		-- dado saindo da memoria
+		data_out	: out std_logic_vector((DATA_WIDTH -1) downto 0);		-- dado saindo da memoria
+		ack_in	 	: in std_logic;
+		ack_mem	 	: out std_logic
 	);
 
 end memory;
